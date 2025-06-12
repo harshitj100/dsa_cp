@@ -15,7 +15,7 @@ public:// O(logn) O(1)
         return bs(x, 0, x);
     }
 };
-
+// why do we returned e
 class Solution {
 public: // iterative 
     int mySqrt(int x) {
