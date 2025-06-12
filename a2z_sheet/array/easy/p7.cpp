@@ -3,8 +3,9 @@
 class Solution {
   public:
     // Function to return the count of number of elements in union of two arrays.
-    int findUnion(vector<int>& a, vector<int>& b) {
+    int findUnion(vector<int>& a, vector<int>& b) {// time - O(mlogm + nlogn)
         // code here
+
         sort(a.begin() , a.end());
         sort(b.begin() , b.end());
         vector<int> c;
